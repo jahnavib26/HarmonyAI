@@ -1,4 +1,4 @@
-# HarmonyAI: Music Genre Classification Using Advanced Machine Learning Models
+# HarmonyAI
 
 ## Overview
 
