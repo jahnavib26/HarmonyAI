@@ -27,19 +27,15 @@ With increasing complexity in audio data, traditional genre classification metho
 The GTZAN dataset includes 9990 tracks across 10 genres (blues, classical, country, disco, hip-hop, jazz, metal, pop, reggae, and rock). Key features such as Mel-frequency Cepstral Coefficients (MFCC), chroma features, and spectral contrast are extracted for training the models.
 
 ## Methodology
+1. **Data Preprocessing**  
+   - Normalization with Min-Max scaling and genre encoding.
+   - Feature extraction: MFCC, chroma features, spectral roll-off.
 
-### 1. **Traditional Machine Learning Models**
-   - Random Forest Classifier
-   - KNN (K-Nearest Neighbors)
-   - SVM (Support Vector Machine)
-   - Logistic Regression
+2. **Model Development**  
+   - Baseline models: SVM, KNN, Random Forest, Logistic Regression.
+   - Advanced models: CNN and XGBoost, Neural Network.
+   - Ensemble learning with a Voting Classifier combining multiple models.
 
-### 2. **Advanced Machine Learning Models**
-   - XGBoost
-
-### 3. **Deep Learning Models**
-   - CNN (Convolutional Neural Network)
-   - Neural Network
-
-### 4. **Ensemble Model**
-   - Ensembler Classifier
+3. **Evaluation**  
+   - Metrics: accuracy, precision, recall, F1-score, ROC AUC.
+   - Final model selection based on comparative performance.
