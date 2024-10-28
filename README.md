@@ -28,7 +28,6 @@ The GTZAN dataset includes 9990 tracks across 10 genres (blues, classical, count
 
 ## Methodology
 
-
 ### 1. **Traditional Machine Learning Models**
    - Random Forest Classifier
    - KNN (K-Nearest Neighbors)
