@@ -28,15 +28,19 @@ The GTZAN dataset includes 9990 tracks across 10 genres (blues, classical, count
 
 ## Methodology
 
-1. **Data Preprocessing**  
-   - Normalization with Min-Max scaling and genre encoding.
-   - Feature extraction: MFCC, chroma features, spectral roll-off.
 
-2. **Model Development**  
-   - Baseline models: SVM, KNN, Random Forest.
-   - Advanced models: CNN and XGBoost.
-   - Ensemble learning with a Voting Classifier combining multiple models.
+### 1. **Traditional Machine Learning Models**
+   - Random Forest Classifier
+   - KNN (K-Nearest Neighbors)
+   - SVM (Support Vector Machine)
+   - Logistic Regression
 
-3. **Evaluation**  
-   - Metrics: accuracy, precision, recall, F1-score, ROC AUC.
-   - Final model selection based on comparative performance.
+### 2. **Advanced Machine Learning Models**
+   - XGBoost
+
+### 3. **Deep Learning Models**
+   - CNN (Convolutional Neural Network)
+   - Neural Network
+
+### 4. **Ensemble Model**
+   - Ensembler Classifier
